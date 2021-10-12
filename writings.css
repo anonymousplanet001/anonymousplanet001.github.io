@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Montserrat,"Helvetica Neue",Helvetica;
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+}
+
+img{
+    border-radius: 5%;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 300; 
+}
+
+tr{
+    border: 20px solid black;
+}
+
+.card-title{
+    font-weight: bolder;
+    font-size: 20px;
+    color: cyan;
+}
+
+h1{
+    padding: 6% 0%;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 800;
+    background-image: linear-gradient(180deg, rgb(1, 192, 206), black);
+}
+
+.btn-primary{
+    color: black;
+    background-image: linear-gradient(180deg, cyan, white);
+    border: 1px solid black;
+}
+
+.btn-primary:hover{
+    color: cyan;
+    background-image: linear-gradient(180deg, black, rgb(1, 141, 146));
+}
+
+.card-today{
+    text-align: left;
+    padding: 5%;
+    background-image: linear-gradient(180deg, black, rgb(1, 192, 206));
+}

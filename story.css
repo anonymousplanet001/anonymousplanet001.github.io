@@ -1,0 +1,139 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Gemunu Libre", sans-serif;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+.b{
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+.container {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  height: 640px;
+  width: 100%;
+}
+
+.container2 {
+  padding-left: 4%;
+  text-align: left;
+  background-repeat: no-repeat;
+  height: 640px;
+  width: 100%;
+}
+
+.container3{
+    margin: 0;
+    text-align: left;
+}
+
+.container6{
+  text-align: right;
+  padding-top: 15%;
+}
+
+.container7{
+  text-align: right;
+  padding-top: 30%;
+}
+
+.container12{
+  text-align: left;
+}
+
+.containerw{
+  padding-top: 50%;
+}
+
+.title {
+  color: black;
+  width: 100%;
+  padding-top: 15%;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.title2 {
+  padding-top: 4%;
+}
+
+
+.subtitle {
+  color: black;
+}
+
+.next {
+  color: cyan;
+  font-weight: 600;
+  background-color: black;
+  width: 10%;
+  margin-top: 3%;
+}
+
+.next2 {
+  margin-left: 15%;
+}
+
+.next20{
+  width: 20%;
+}
+
+.nextw{
+  color: black;
+  font-weight: 600;
+  background-color: cyan;
+  width: 20%;
+  margin-top: 3%;
+}
+
+.nextw:hover{
+  color: cyan;
+  background-color: black;
+}
+
+.button12{
+  padding-left: 80%;
+}
+
+.next:hover {
+  color: black;
+  background-color: cyan;
+}
+
+.animated {
+  background-repeat: no-repeat;
+  background-position: left top;
+  -webkit-animation-duration: 8s;
+  animation-duration: 8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
